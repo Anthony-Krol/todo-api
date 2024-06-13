@@ -30,3 +30,11 @@ def read_todos(skip: int = 0, limit: int = 10, db: Session = Depends(get_db), cu
 @router.post("/todos", response_model=schemas.TodoItem)
 def create_todo(todo: schemas.TodoCreate, db: Session = Depends(get_db), current_user: UserSchema = Depends(get_current_user)):
     return todo_service.create_todo_item(db, todo, current_user.id)
+
+@router.delete("/todos/{public_id}", response_model=schemas.TodoItem)
+def delete_todo(public_id: str, db: Session = Depends(get_db), current_user: UserSchema = Depends(get_current_user)):
+    return todo_service.delete_todo_item(db, public_id, current_user.id)
+
+@router.patch("/todos/{public_id}/toggle", response_model=schemas.TodoItem)
+def toggle_todo_state(public_id: str, db: Session = Depends(get_db), current_user: UserSchema = Depends(get_current_user)):
+    return todo_service.toggle_todo_item_state(db, public_id, current_user.id)
