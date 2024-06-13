@@ -9,7 +9,6 @@ class UserCreate(UserBase):
     password: str
 
 class User(UserBase):
-    id: int
     public_id: UUID
 
     class Config:

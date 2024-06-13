@@ -13,9 +13,7 @@ class TodoUpdate(TodoBase):
     pass
 
 class TodoItem(TodoBase):
-    id: int
     public_id: UUID
-    owner_id: int
 
     class Config:
         from_attributes = True
