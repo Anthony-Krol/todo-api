@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18d22f7e-ddca-4dd0-a3cc-5e47c81f031c" name="Changes" comment="Auth and db" />
+    <list default="true" id="18d22f7e-ddca-4dd0-a3cc-5e47c81f031c" name="Changes" comment="xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/todo.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/todo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repositories/todo.py" beforeDir="false" afterPath="$PROJECT_DIR$/repositories/todo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repositories/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/repositories/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/todo.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/todo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/user.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718267000668</updated>
-      <workItem from="1718267002028" duration="2153000" />
+      <workItem from="1718267002028" duration="2315000" />
     </task>
     <task id="LOCAL-00001" summary="Innit">
       <option name="closed" value="true" />
@@ -103,7 +111,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718269148999</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="db">
+      <option name="closed" value="true" />
+      <created>1718269175603</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718269175603</updated>
+    </task>
+    <task id="LOCAL-00004" summary="xml">
+      <option name="closed" value="true" />
+      <created>1718269182725</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718269182725</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,9 +136,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Innit" />
     <MESSAGE value="Auth and db" />
-    <option name="LAST_COMMIT_MESSAGE" value="Auth and db" />
+    <MESSAGE value="db" />
+    <MESSAGE value="xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="xml" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ToDoListApi$ToDoListApi.coverage" NAME="ToDoListApi Coverage Results" MODIFIED="1718268427877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ToDoListApi$ToDoListApi.coverage" NAME="ToDoListApi Coverage Results" MODIFIED="1718269190505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

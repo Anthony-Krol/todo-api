@@ -1,4 +1,5 @@
 from pydantic import BaseModel
+from uuid import UUID
 
 class UserBase(BaseModel):
     username: str
@@ -9,6 +10,7 @@ class UserCreate(UserBase):
 
 class User(UserBase):
     id: int
+    public_id: UUID
 
     class Config:
-        orm_mode = True
+        from_attributes = True

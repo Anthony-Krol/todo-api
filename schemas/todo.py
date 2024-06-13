@@ -1,4 +1,5 @@
 from pydantic import BaseModel
+from uuid import UUID
 
 class TodoBase(BaseModel):
     title: str
@@ -13,7 +14,8 @@ class TodoUpdate(TodoBase):
 
 class TodoItem(TodoBase):
     id: int
+    public_id: UUID
     owner_id: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
