@@ -19,7 +19,6 @@ def create_todo_item(db: Session, todo: schemas.TodoCreate, user_id: int):
 
 
 def delete_todo_item(db: Session, public_id: str, user_id: int):
-    public_id = public_id.replace('-', '')
     db_item = db.query(models.TodoItem).filter(models.TodoItem.public_id == public_id,
                                                models.TodoItem.owner_id == user_id).first()
     if db_item:
@@ -30,7 +29,6 @@ def delete_todo_item(db: Session, public_id: str, user_id: int):
 
 
 def toggle_todo_item_state(db: Session, public_id: str, user_id: int):
-    public_id = public_id.replace('-', '')
     db_item = db.query(models.TodoItem).filter(models.TodoItem.public_id == public_id,
                                                models.TodoItem.owner_id == user_id).first()
     if db_item:
