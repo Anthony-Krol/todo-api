@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18d22f7e-ddca-4dd0-a3cc-5e47c81f031c" name="Changes" comment="delet eand toogle service.">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/93044c65-bc7c-4b76-987a-c4a27d38c14b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/93044c65-bc7c-4b76-987a-c4a27d38c14b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/todo.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/todo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.db" beforeDir="false" afterPath="$PROJECT_DIR$/test.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +94,7 @@
       <workItem from="1718361972020" duration="403000" />
       <workItem from="1718707504975" duration="155000" />
       <workItem from="1718954583380" duration="12000" />
-      <workItem from="1719409374232" duration="28000" />
+      <workItem from="1719409374232" duration="528000" />
     </task>
     <task id="LOCAL-00001" summary="Innit">
       <option name="closed" value="true" />
@@ -148,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718279661395</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="delet eand toogle service.">
+      <option name="closed" value="true" />
+      <created>1719409726759</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719409726759</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
