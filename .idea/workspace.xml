@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18d22f7e-ddca-4dd0-a3cc-5e47c81f031c" name="Changes" comment="delet eand toogle service." />
+    <list default="true" id="18d22f7e-ddca-4dd0-a3cc-5e47c81f031c" name="Changes" comment="delet eand toogle service.">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.db" beforeDir="false" afterPath="$PROJECT_DIR$/test.db" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +99,7 @@
       <workItem from="1718707504975" duration="155000" />
       <workItem from="1718954583380" duration="12000" />
       <workItem from="1719409374232" duration="528000" />
-      <workItem from="1719472537689" duration="433000" />
+      <workItem from="1719472537689" duration="999000" />
     </task>
     <task id="LOCAL-00001" summary="Innit">
       <option name="closed" value="true" />
@@ -159,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719472576214</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="delet eand toogle service.">
+      <option name="closed" value="true" />
+      <created>1719473061709</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719473061709</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +189,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="delet eand toogle service." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ToDoListApi$ToDoListApi.coverage" NAME="ToDoListApi Coverage Results" MODIFIED="1719472540707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ToDoListApi$ToDoListApi.coverage" NAME="ToDoListApi Coverage Results" MODIFIED="1719473350301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
